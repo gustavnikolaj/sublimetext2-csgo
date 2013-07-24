@@ -13,4 +13,4 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Sublime
-.tmLanguage.cache
+*.tmLanguage.cache
