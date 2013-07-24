@@ -1,5 +1,7 @@
 # sublimetext2-csgo
 
+![Screenshot](http://i.imgur.com/pQi2KFY.png)
+
 Sublime Text 2 Package for Counter Strike: Global Offensive configuration files
 
 ## Installation
