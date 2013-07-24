@@ -41,6 +41,6 @@
     "MWHEELUP",
     { "trigger": "AUX1-31", "contents": "AUX${1:1-31}" },
     { "trigger": "JOY1-4", "contents": "JOY${1:1-4}" },
-    { "trigger": "MOUSE1-5", "contents": "MOUSE${1:1-5}" },
+    { "trigger": "MOUSE1-5", "contents": "MOUSE${1:1-5}" }
   ]
 }
