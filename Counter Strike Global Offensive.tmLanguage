@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>cfg</string>
+	</array>
+	<key>name</key>
+	<string>Counter Strike Global Offensive</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>alias/bind keywords</string>
+			<key>match</key>
+			<string>^(\s*)(bindtoggle|bind|unbind|alias)(\s*)([-+]*[\da-zA-Z_]+)</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>quoted strings</string>
+			<key>match</key>
+			<string>"([^"]*)"</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>echo commands</string>
+			<key>match</key>
+			<string>^(echo|say)</string>
+			<key>name</key>
+			<string>keyword.control</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>single line comment</string>
+			<key>match</key>
+			<string>(//).*?($\n?|(?=\?&gt;))</string>
+			<key>name</key>
+			<string>comment.line.double-slash.php</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(\s*)([a-zA-Z0-9_-]+)</string>
+			<key>name</key>
+			<string>support.function</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.csgo</string>
+	<key>uuid</key>
+	<string>d49cce34-731e-44f2-80fe-8dd39eb82fe5</string>
+</dict>
+</plist>

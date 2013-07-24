@@ -1,0 +1,10 @@
+{
+  "scope": "source.csgo",
+  "completions": [
+    { "trigger": "sv_cheats", "contents": "sv_cheats ${1:0/1}" },
+    "bot_kick",
+    "bot_add_t",
+    "bot_add_ct",
+    "whatthefuck"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "source.csgo",
+  "completions": [
+    { "trigger": "bind",       "contents": "bind ${1:button} \"${2:function}\"" },
+    { "trigger": "unbind",     "contents": "unbind ${1:button}" },
+    { "trigger": "bindtoggle", "contents": "bindtoggle ${1:button} \"${2:function}\"" },
+    { "trigger": "alias",      "contents": "alias ${1:name} \"${2:function}\"" },
+    { "trigger": "echo",       "contents": "echo \"${1:string}\"" },
+    { "trigger": "say",        "contents": "say \"${1:string}\"" },
+    { "trigger": "buy",        "contents": "buy \"${1:weapon}\"" },
+    { "trigger": "give",       "contents": "give \"${1:weapon_}\"" }
+  ]
+}

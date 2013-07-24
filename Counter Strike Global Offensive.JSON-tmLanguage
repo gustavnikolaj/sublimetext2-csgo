@@ -1,0 +1,31 @@
+{ "name": "Counter Strike Global Offensive",
+  "scopeName": "source.csgo",
+  "fileTypes": ["cfg"],
+  "patterns": [
+    { "match": "^(\\s*)(bindtoggle|bind|unbind|alias)(\\s*)([-+]*[\\da-zA-Z_]+)",
+      "captures": {
+        "2": { "name": "storage.type" },
+        "4": { "name": "entity.name.function" }
+      },
+      "comment": "alias/bind keywords"
+    },
+    { "match": "\"([^\"]*)\"",
+      "captures": {
+        "1": { "name": "string.quoted" } 
+      },
+      "comment": "quoted strings"
+    },
+    { "match": "^(echo|say)",
+      "name": "keyword.control",
+      "comment": "echo commands"
+    },
+		{ "match": "(//).*?($\\n?|(?=\\?>))",
+      "name": "comment.line.double-slash.php",
+      "comment": "single line comment"
+    },
+    { "match": "^(\\s*)([a-zA-Z0-9_-]+)",
+      "name": "support.function"
+    }
+  ],
+  "uuid": "d49cce34-731e-44f2-80fe-8dd39eb82fe5"
+}
