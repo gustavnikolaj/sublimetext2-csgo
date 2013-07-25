@@ -26,3 +26,8 @@ non-gaming programmers.
 ### It does not work! / Why does it not do this?
 If you find any problems or if you have any suggestions, please make an issue here on GitHub. If you do not use 
 GitHub, you can DM me on reddit (/u/gustavnikolaj).
+
+# NotePad++ version
+
+Courtesy of k3nnyfr:
+https://github.com/k3nnyfr/csgo/blob/master/csgo-npp-language.xml 
