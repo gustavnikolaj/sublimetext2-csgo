@@ -27,7 +27,7 @@
 			<key>comment</key>
 			<string>alias/bind keywords</string>
 			<key>match</key>
-			<string>^(\s*)(bindtoggle|bind|unbind|alias)(\s*)([-+]*[\da-zA-Z_]+)</string>
+			<string>^(\s*)(bindtoggle|bind|unbind|alias)(\s*)([-+]?[\da-zA-Z_]+)?</string>
 		</dict>
 		<dict>
 			<key>captures</key>
