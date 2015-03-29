@@ -13,12 +13,12 @@
 		<dict>
 			<key>captures</key>
 			<dict>
-				<key>2</key>
+				<key>3</key>
 				<dict>
 					<key>name</key>
 					<string>storage.type</string>
 				</dict>
-				<key>4</key>
+				<key>5</key>
 				<dict>
 					<key>name</key>
 					<string>entity.name.function</string>
@@ -27,7 +27,7 @@
 			<key>comment</key>
 			<string>alias/bind keywords</string>
 			<key>match</key>
-			<string>^(\s*)(bindtoggle|bind|unbind|alias)(\s*)([-+]?[\da-zA-Z_]+)?</string>
+			<string>(^|;)(\s*)(bindtoggle|bind|unbind|alias)(\s*)([-+]?[\da-zA-Z_]+)?</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -47,7 +47,7 @@
 			<key>comment</key>
 			<string>echo commands</string>
 			<key>match</key>
-			<string>^(echo|say_team|say)</string>
+			<string>(^|;)(echo|say_team|say)</string>
 			<key>name</key>
 			<string>keyword.control</string>
 		</dict>
@@ -61,7 +61,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^(\s*)([a-zA-Z0-9_-]+)</string>
+			<string>(^|;)(\s*)([a-zA-Z0-9_-]+)</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
