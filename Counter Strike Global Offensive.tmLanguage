@@ -61,9 +61,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(^|;)(\s*)([a-zA-Z0-9_-]+)</string>
-			<key>name</key>
-			<string>support.function</string>
+			<string>(?:^|;)\s*([a-zA-Z0-9_-]+)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>support.function</string>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 	<key>scopeName</key>
