@@ -47,7 +47,7 @@
 			<key>comment</key>
 			<string>echo commands</string>
 			<key>match</key>
-			<string>^(echo|say)</string>
+			<string>^(echo|say_team|say)</string>
 			<key>name</key>
 			<string>keyword.control</string>
 		</dict>
