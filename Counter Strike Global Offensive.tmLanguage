@@ -41,9 +41,15 @@
 			<key>comment</key>
 			<string>echo commands</string>
 			<key>match</key>
-			<string>(^|;)(echo|say_team|say)</string>
-			<key>name</key>
-			<string>keyword.control</string>
+			<string>(?:^|;)\s*(echo|say_team|say)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.control</string>
+				</dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>comment</key>
