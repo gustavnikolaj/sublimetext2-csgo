@@ -30,18 +30,12 @@
 			<string>(?:^|;)\s*(bindtoggle|bind|unbind|alias)\s+([-+]?[\da-zA-Z_]+)?</string>
 		</dict>
 		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>string.quoted</string>
-				</dict>
-			</dict>
+			<key>name</key>
+			<string>string.quoted</string>
 			<key>comment</key>
 			<string>quoted strings</string>
 			<key>match</key>
-			<string>"([^"]*)"</string>
+			<string>"[^"]*"</string>
 		</dict>
 		<dict>
 			<key>comment</key>
