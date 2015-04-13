@@ -16,6 +16,15 @@ To install it, place the files of this repo in a folder called Counter Strike GO
 %APP_DATA% is a Windows environment variable; if you username is John, it will be the 
 following path on a W7 machine: C:\Users\John\AppData\
 
+## Sublime Text 3 Installation
+
+Sublime Text 3 should be fully compatible with version 2. This package
+has been confirmed working in Sublime Text 3.
+
+Installation instructions are different though, and the package should
+be put in the folder `C:\Program Files\Sublime Text 3\Data\Packages\User`
+instead.
+
 ## F.A.Q.
 
 ### Why are this package not available in package control?
